@@ -12,7 +12,5 @@
 
 #[feature(globs)];
 
-extern mod std;
-
 pub mod freetype;
 pub mod tt_os2;
