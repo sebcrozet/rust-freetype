@@ -9,6 +9,7 @@
 
 #[crate_id = "github.com/mozilla-servo/rust-freetype#freetype:0.1"];
 #[crate_type = "lib"];
+#[allow(non_camel_case_types)];
 
 #[feature(globs)];
 
