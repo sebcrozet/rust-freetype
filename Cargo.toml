@@ -1,0 +1,11 @@
+[package]
+name    = "rust-freetype"
+version = "0.1.0"
+authors = [ "Mozilla Servo" ]
+
+build   = "./configure && make"
+
+[[lib]]
+name       = "freetype"
+path       = "freetype.rc"
+crate_type = [ "dylib", "staticlib" ]
